@@ -8,7 +8,7 @@ import  { Toaster } from 'react-hot-toast';
 const Home: NextPage = () => {
   return (
     
-    <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-gray-900">
+    <div className="flex min-h-screen flex-col items-center justify-center py-2  bg-gray-900">
       <Head>
         <title>3 konect</title>
         <link rel="icon" href="/favicon.ico" />

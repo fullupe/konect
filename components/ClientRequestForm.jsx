@@ -221,7 +221,7 @@ function ClientRequestForm() {
 
 
   return (
-    <div className="mt-10 sm:mt-0 text-white flex space-x-12 ms:flex-col h-[100%] flex-col-reverse space-y-4 ">
+    <div className="mt-10 sm:mt-0 text-white flex space-x-12q mx-2 ms:flex-col h-[100%] flex-col-reverse space-y-4 ">
         <Toaster />
 
   <>
@@ -357,11 +357,11 @@ function ClientRequestForm() {
       
       <div className="md:grid md:grid-cols-1 md:gap-6">
        
-        <div className="mt-5 md:mt-0 md:col-span-2">
+        <div className="mt-5 md:mt-0 md:col-span-2 items-center">
           <form onSubmit={handleSubmit(onSubmit)}>
-            <div className="shadow overflow-hidden sm:rounded-md">
+            <div className="shadow overflow-hidden sm:rounded-md ">
 
-              <div className="flex items-center justify-center m-4">
+              <div className="flex items-center justify-center mb-2 ">
               <p className="text-white italic text-2xl text-center ">Please Fill The forms with the Right Details and Submit..!</p>
               </div>
 
@@ -694,7 +694,7 @@ function ClientRequestForm() {
                         
                         {wrongImageType && <p>Wrong Image Type</p>}
                         {!imageAssetSign  ? (
-                            <label className="flex">
+                            <label className="flex justify-center items-center">
                                 <div className="flex flex-col items-center justify-center h-full">
                                 <div className="flex flex-col justify-center items-center">
                                     <p className="font-bold text-2xl">
@@ -704,7 +704,7 @@ function ClientRequestForm() {
                                       <div className="flex flex-col items-center cursor-pointer">
 
                                         <AiOutlineCloudUpload />
-                                        <p className="text-sm">Click to Upload</p>
+                                        <p className="text-sm text-center">Click to Upload</p>
                                       </div>
 
                                     )}
