@@ -639,7 +639,7 @@ function ClientRequestForm() {
                         
                         {wrongImageType && <p>Wrong Image Type</p>}
                         {!imageAsset  ? (
-                            <label className="flex">
+                            <label className="flex justify-center items-center">
                                 <div className="flex flex-col items-center justify-center h-full">
                                 <div className="flex flex-col justify-center items-center">
                                     <p className="font-bold text-2xl">
@@ -649,7 +649,7 @@ function ClientRequestForm() {
                                       <div className="flex flex-col items-center cursor-pointer">
 
                                         <AiOutlineCloudUpload />
-                                        <p className="text-sm">Click to Upload</p>
+                                        <p className="text-sm text-center">Click to Upload</p>
                                       </div>
 
                                     )}
