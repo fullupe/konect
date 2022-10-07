@@ -372,7 +372,7 @@ function ClientRequestForm() {
                       
                       className="block text-sm font-medium text-gray-00"
                     >
-                      Sure Name
+                      SureName
                     </label>
                     <input
                     //value={s_name}
